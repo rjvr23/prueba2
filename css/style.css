@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Lato&display=swap');
+
+@font-face{
+	font-family: "Catamaran";
+	src:url("../fonts/Catamaran-VariableFont_wght.ttf") format("Truetype")
+}
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+
+body{
+	font-size: 14px;
+	font-family: "Catamaran";
+}
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+	font-family: "Catamaran";
+}
+
+#welcome {
+	text-align:center;
+	}
+
+#welcome h1{
+	color: #282d33;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 40px;
+	
+}
+
+
+#welcome p{
+	color: #e0e0e0;
+	font-size: 13px;
+	margin-bottom: 20px;
+
+}
+
+.welcome-image {
+	display: block; 
+    margin: auto;
+	width:1200px;
+	}
+
+#features {
+ 	padding: 50px 0; 
+	text-align: center;
+	background-color:#f7f7f7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Catamaran";
+	
+}
+
+#features h3{
+	color: #282d33;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-family: "Catamaran";
+}
+
+
+#features p{
+	color: #e0e0e0;
+	font-size: 13px;
+	margin-bottom: 20px;
+	font-family: "Catamaran";
+}
+
+.custom-icon-top{
+	color: #e0e0e0;
+	font-size: 180px;
+	margin-bottom: 20px;
+	
+}
+
+.custom-icon-bottom{
+	color: #53c3c9;
+	font-size: 40px;
+	font-weight: 100%;
+	
+	
+}
+
+
+
+#cta{
+	background-image: url("../img/using-touchscreen.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding:10%; 
+	font-family: "Catamaran";
+}
+
+#cta h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+	font-family: "Catamaran";
+	
+	}
+
+#cta h5{
+	color: #fff;
+	font-family: "Catamaran";
+	
+	}
+
+
+.btn-moto{
+	background-color: #FFFFFF;
+	padding: 10px 50px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+#clients {
+	background-color:#f7f7f7; 
+	padding: 30px;
+	}
+	
+.custom-bg {
+            background-color: #f7f7f7; 
+            padding: 20px;
+           
+        }
+
+.article-image {
+    max-width: 130%;
+
+        }
+
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+	
+}
+
